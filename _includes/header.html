@@ -1,10 +1,12 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 <header>
-  <p style="color: #8aff80">                  _______  ___ ____ _____    ____   </p>
-  <p style="color: #8aff80">                 /  _ \  \/  //    \\__  \  /    \  </p>
-  <p style="color: #8aff80">                (  <_> >    <|   |  \/ __ \|   |  \ </p>
-  <p style="color: #9580ff">─────────────────<p style="color: #8aff80">\____/__/\_ \___|  (____  /___|  /<p style="color: #9580ff">─────────────────</p></p></p>
-  <p style="color: #8aff80">                            \/    \/     \/     \/  </p>
+  <div>
+    <p class="headg">                  _______  ___ ____ _____    ____   </p>
+    <p class="headg">                 /  _ \  \/  //    \\__  \  /    \  </p>
+    <p class="headg">                (  <_> >    <|   |  \/ __ \|   |  \ </p>
+    <p class="headp">─────────────────<p class="headg">\____/__/\_ \___|  (____  /___|  /<p class="headp">─────────────────</p></p></p>
+    <p class="headg">                            \/    \/     \/     \/  </p>
+  </div>
   <div class="custommenu">
     <ul>
       {%- for path in page_paths -%}
