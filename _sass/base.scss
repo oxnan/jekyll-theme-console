@@ -60,7 +60,7 @@ footer { margin-bottom: 20px; }
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
 .menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
 
-.custommenu { border-bottom: var(--border);  margin-bottom: 25px; }
+.custommenu { border-top: var(--border); border-bottom: var(--border);  margin-bottom: 25px; }
 .custommenu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
 .custommenu ul li { display: inline;  margin-left: 10px; }
 .custommenu ul li a { text-decoration: none;  color: var(--text-color); }
@@ -158,4 +158,7 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 #ascii {
     line-height: 1;
     font-family: $topaz-font
+    color: #8aff80;
+    text-align: center;
+    display: block;
 }
