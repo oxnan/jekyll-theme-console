@@ -10,6 +10,7 @@
 /**
  * Style variables
  */
+$topaz-font:     'TopazPlus a500a1000a2000', monospace !default;
 $base-font-family:     'Source Code Pro', monospace !default;
 $base-font-size:       12.5px !default;
 $mobile-font-size:     12px !default;
@@ -156,5 +157,5 @@ figure.highlight { margin: 5px 0; }
  */
 #ascii {
     line-height: 1;
-    font-family: "TopazPlus a500a1000a2000",monospace;
+    font-family: $topaz-font
 }
