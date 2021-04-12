@@ -144,3 +144,11 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
  */
 .headg {color: #8aff80;}
 .headp {color: #9580ff;}
+
+/**
+ * Ascii art
+ */
+#ascii {
+    line-height: 1;
+    font-family: "TopazPlus a500a1000a2000",monospace;
+}
